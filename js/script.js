@@ -70,7 +70,7 @@ Highcharts.chart('mezinarodni', {
         text: 'Studijní neúspěšnost bakalářů, Česko × OECD'
     },
     subtitle: {
-        text: 'srovnání studentů, kteří nastoupili 2013, letos by standardní dobu studia překročili o 2 roky'
+        text: 'neúspěšní studenti, rok nástupu 2013'
     },
     xAxis: {
         categories: zeme
@@ -78,7 +78,7 @@ Highcharts.chart('mezinarodni', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní neúspěšnost Bc. studia'
+            text: 'neúspěšní studenti'
         },
         labels: {
             format: '{value} %'
@@ -126,10 +126,10 @@ Highcharts.chart('casovarada', {
         type: 'column'
     },
     title: {
-        text: 'Studijní neúspěšnost bakalářů, časová řada'
+        text: 'Studijní neúspěšnost bakalářů, všechny veřejné VŠ'
     },
     subtitle: {
-        text: 'srovnání neúspěšně ukončených studií podle ročníku nástupu'
+        text: 'neúspěšně ukončená studia podle ročníku nástupu'
     },
     xAxis: {
         categories: roky
@@ -137,7 +137,7 @@ Highcharts.chart('casovarada', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní neúspěšnost Bc. studia'
+            text: 'neúspěšně ukončená studia'
         },
         labels: {
             format: '{value} %'
@@ -212,7 +212,7 @@ Highcharts.chart('uk', {
         text: 'Studijní neúspěšnost bakalářů, Univerzita Karlova'
     },
     subtitle: {
-        text: 'srovnání neúspěšně ukončených studií podle fakulty, rok nástupu 2013'
+        text: 'neúspěšně ukončená studia podle fakulty, rok nástupu 2013'
     },
     xAxis: {
         categories: fakultyUK
@@ -220,7 +220,7 @@ Highcharts.chart('uk', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní neúspěšnost Bc. studia'
+            text: 'neúspěšně ukončená studia'
         },
         labels: {
             format: '{value} %'
@@ -287,7 +287,7 @@ Highcharts.chart('technicke', {
         text: 'Studijní neúspěšnost bakalářů, technické fakulty'
     },
     subtitle: {
-        text: 'srovnání neúspěšně ukončených studií podle fakulty, rok nástupu 2013'
+        text: 'neúspěšně ukončená studia podle fakulty, rok nástupu 2013'
     },
     xAxis: {
         categories: fakultyTF
@@ -295,7 +295,7 @@ Highcharts.chart('technicke', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní neúspěšnost Bc. studia'
+            text: 'neúspěšně ukončená studia'
         },
         labels: {
             format: '{value} %'
@@ -362,7 +362,7 @@ Highcharts.chart('pedagogicke', {
         text: 'Studijní neúspěšnost bakalářů, pedagogické fakulty'
     },
     subtitle: {
-        text: 'srovnání neúspěšně ukončených studií podle fakulty, rok nástupu 2013'
+        text: 'neúspěšně ukončená studia podle fakulty, rok nástupu 2013'
     },
     xAxis: {
         categories: fakultyPF
@@ -370,7 +370,7 @@ Highcharts.chart('pedagogicke', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní neúspěšnost Bc. studia'
+            text: 'neúspěšně ukončená studia'
         },
         labels: {
             format: '{value} %'
@@ -437,7 +437,7 @@ Highcharts.chart('programy', {
         text: 'Studijní úspěšnost Bc. × Mgr. × PhD.'
     },
     subtitle: {
-        text: 'srovnání úspěšně ukončených studií, rok nástupu 2010'
+        text: 'úspěšní studenti, rok nástupu 2010'
     },
     xAxis: {
         categories: ['Bc.', 'Mgr.', 'navazující Mgr.', 'PhD.']
@@ -445,7 +445,7 @@ Highcharts.chart('programy', {
     yAxis: {
         min: 0,
         title: {
-            text: 'studijní úspěšnost'
+            text: 'úspěšní studenti'
         },
         labels: {
             format: '{value} %'

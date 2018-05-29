@@ -1,17 +1,15 @@
-title: "XXX"
-perex: "XXX"
+title: "Téměř 60 procent bakalářských studií v Česku končí neúspěchem. Na technických fakultách je to i 90 procent"
+perex: "Vysoká studijní úmrtnost trápí studenty, zatěžuje stát a brzdí ekonomiku. Školy si však stále hýčkají talenty – přestože se jich ke státnicím mnoho nedostane."
 published: "29. května 2018"
 # autoři se zadávají až v redakčním systému
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='#'>ČTK</a>"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/rozhlas-1_180529-112610_jab.jpg?itok=idMw3GHv
+coverimg_note: "Foto: <a href='http://wordpress.fjfi.cvut.cz/SU/wp-content/uploads/2016/03/IMG_4859.jpg'>Jiří Ryszawy, ČVUT</a>"
 styles: []
-libraries: [jquery, highcharts] #jquery-csv, d3, , datatables
+libraries: [jquery, highcharts] #jquery-csv, d3, datatables
 options: [] #wide, noheader (, nopic)
 ---
 
-Víc než polovina pokusů vystudovat bakalářský obor v Česku končí neúspěchem.
-
-Podíl neúspěšných studií už druhé desetiletí roste. V imatrikulačním ročníku 2001 – jednom z prvních, který měl možnost hlásit se na bakaláře – předčasně skončilo přes 40 procent pokusů získat bakalářský titul. O deset let později to bylo 55 procent a číslo dál roste.
+Téměř 60 procent pokusů vystudovat bakalářský obor v Česku končí neúspěchem. Podíl neúspěšných studií navíc už druhé desetiletí roste. V imatrikulačním ročníku 2001 – jednom z prvních, který měl možnost hlásit se na bakaláře – předčasně skončilo přes 40 procent pokusů získat bakalářský titul. O deset let později to bylo 55 procent a nezdá se, že by se růst studijní neúspěšnosti měl zastavit.
 
 <wide><div id="casovarada" style="max-width: 100%; height: 500px"></div></wide>
 
@@ -23,7 +21,7 @@ Problém vidí v tom, jací studenti na školu přicházejí.
 
 „Úroveň vzdělání nových studentů vykazuje značný rozptyl, a proto se snažíme zvyšovat úspěšnost studia v prvních semestrech organizováním vyrovnávacích kurzů, které pomáhají hůře připraveným studentům zvládnout požadovanou látku,“ dodává.
 
-„Tvrdit, že všichni neúspěšní studenti jsou hloupí, líní nebo ‚na studium nemají‘, je extrémně zjednodušující,“ oponuje mu Šimon Stiburek, bývalý analytik ministerstva školství a spoluautor loni vydané publikace [Studijní neúspěšnost na vysokých školách]( https://www.databazeknih.cz/knihy/studijni-neuspesnost-na-vysokych-skolach-teoreticka-vychodiska-empiricke-poznatky-a-doporuceni-355059). „Schopnosti a kompetence získané v předchozím vzdělávání jsou samozřejmě jeden z velmi důležitých faktorů, ale zároveň školy opouští spousta velmi inteligentních, talentovaných a ambiciózních mladých lidí, kteří jsou nespokojení s tím, co škola nabízí, necítí se dobře v jejím prostředí nebo mají pocit, že jsou nuceni se učit nesmysly.“
+„Tvrdit, že všichni neúspěšní studenti jsou hloupí, líní nebo ‚na studium nemají‘, je extrémně zjednodušující,“ myslí si Šimon Stiburek, bývalý analytik ministerstva školství a spoluautor loni vydané publikace [Studijní neúspěšnost na vysokých školách]( https://www.databazeknih.cz/knihy/studijni-neuspesnost-na-vysokych-skolach-teoreticka-vychodiska-empiricke-poznatky-a-doporuceni-355059). „Schopnosti a kompetence získané v předchozím vzdělávání jsou samozřejmě jeden z velmi důležitých faktorů, ale zároveň školy opouští spousta velmi inteligentních, talentovaných a ambiciózních mladých lidí, kteří jsou nespokojení s tím, co škola nabízí, necítí se dobře v jejím prostředí nebo mají pocit, že jsou nuceni se učit nesmysly,“ nabízí další z možných scénářů Stiburek. „Může za ni především nesoulad představ a očekávání od studia a jeho skutečné podoby.“
 
 „Vyrovnávací kurzy jsou smyslupné opatření, ale jejich dopad bude omezený, dokud se školy nenaučí lépe pracovat s motivací studentů,“ tvrdí Stiburek.
 
@@ -35,13 +33,17 @@ Studentů, kteří bakaláře nedokončí, je méně; zatímco neúspěšných s
 
 „Velká část odchodů je takzvanou odloženou volbou, kdy studenti nastoupili do více studií a jedno z nich opustí,“ vysvětlují autoři zmíněné publikace. „Může za ni především nesoulad představ a očekávání od studia a jeho skutečné podoby.“
 
-„A naopak, školy často využívají první ročník jako prodloužené přijímací řízení,“ doplňuje Stiburek. „Přijímací zkoušky, pokud vůbec nějaké dělají, použijí jen jako hrubé síto a studenty často protřídí třeba na konci prváku. Tím opět přispívají k nízké efektivitě systému. Student zjistí až po roce, že ho vlastně škola nechtěla.“
+Podle Stiburka navíc školy často využívají první ročník jako prodloužené přijímací řízení.
+
+„Přijímací zkoušky, pokud vůbec nějaké dělají, použijí jen jako hrubé síto a studenty často protřídí třeba na konci prváku. Tím opět přispívají k nízké efektivitě systému. Student zjistí až po roce, že ho vlastně škola nechtěla,“ doplňuje Stiburek.
 
 Hypotézu o odložené volbě na straně studentů i prodlouženém přijímacím řízení na straně školy podporují také data o tom, kdy studenti školu ukončí. Většina studií napříč univerzitami, fakultami i obory se uzavře v prvním ročníku. Zásadní roli nemá ani obtížnost samotného přijímacího řízení.
 
-„Studijní neúspěšnost se soustředí do prvního ročníku jak v oborech, pro které je typická velká otevřenost k uchazečům a přísné zkoušky v nižších ročnících nahrazujících přijímací řízení, tak v oborech, které jsou na vstupu poměrně selektivní,“ upozorňuje publikace. „Koneckonců, obdobné rozložení neúspěšnosti můžeme pozorovat u prestižních a výběrových dlouhých magisterských oborů v právu a lékařství. Není tedy možné vypozorovat přímou obecnou závislost mezi selektivitou přijímacího řízení a distribucí neúspěšnosti do jednotlivých let.
+„Studijní neúspěšnost se soustředí do prvního ročníku jak v oborech, pro které je typická velká otevřenost k uchazečům a přísné zkoušky v nižších ročnících nahrazujících přijímací řízení, tak v oborech, které jsou na vstupu poměrně selektivní,“ upozorňuje publikace. „Koneckonců, obdobné rozložení neúspěšnosti můžeme pozorovat u prestižních a výběrových dlouhých magisterských oborů v právu a lékařství. Není tedy možné vypozorovat přímou obecnou závislost mezi selektivitou přijímacího řízení a distribucí neúspěšnosti do jednotlivých let.“
 
 „Koncentrace neúspěšnosti do prvního ročníku je často v přímém rozporu s intuicí mnoha akademických hodnostářů i odborníků zabývajících se vysokým školstvím,“ dodávají autoři. „Řada z nich se naopak domnívá, že neúspěšnost se soustředí v posledních ročnících studia, v bodě, kdy studenti musejí splnit dříve odložené studijní povinnosti, napsat závěrečnou práci a složit státní závěrečné zkoušky. Data ale žádný takový vývoj nepotvrzují. Studijní neúspěšnost ve třetích a čtvrtých ročnících bakalářského studia je ve srovnání s prvním a druhým ročníkem zanedbatelná.“
+
+## Technické školy: mezi devadesáti a čtyřiceti procenty neúspěšnosti
 
 Mimořádně vysokou neúspěšnost v prvním ročníku má například Fakulta jaderná a fyzikálně inženýrská Českého vysokého učení technického. Téměř 80 procent započatých studií skončí v prvním ročníku, necelých 10 procent v následujících letech.
 
@@ -49,19 +51,19 @@ Mimořádně vysokou neúspěšnost v prvním ročníku má například Fakulta 
 
 „Naše fakulta je náročná,“ obhajuje neúspěšnost Šárka Salačová ze zmíněné školy. „Nejedná se však ani tak o náročnost z hlediska probírané látky jako spíše o nároky na vlastní disciplínu. Pokud chcete věcem porozumět, potřebujete čas. To se však studentům těžko vysvětluje, když vidí své spolužáky z jiných škol, kterým stačí podívat se na celosemestrální učivo sotva tři dny před zkouškou. Mnohé studenty to odradí. Benefit kvalitní práce a jistoty uplatnění po absolutoriu je pro řadu studentů velmi vzdálený oproti nabyté svobodě po přísnosti středních škol.“
 
-Na opačném konci je Fakulta informačních technologií Vysokého učení technického v Brně. Jako jediná z technických škol s výjimkou studia architektury má studijní neúspěšnost pod padesáti procenty. To vidí nízkou neúspěšnost ve výběru uchazečů.
+Na opačném konci je Fakulta informačních technologií Vysokého učení technického v Brně. Jako jediná z technických škol s výjimkou studia architektury má studijní neúspěšnost pod padesáti procenty.
 
-„To nejpřísnější síto nastavujeme již v počátku, nikoliv v průběhu studia,“ říká Bohuslav Křena, fakultní proděkan pro efektivitu a akademické záležitosti. „Není naší strategií ani zájmem přijmout maximum studentů a až v průběhu studia zjišťovat, kteří z nich na něj skutečně mají. Navím to k nám je blízko ze Slovenska, můžeme si tak vybírat mezi těmi nejlepšími z obou zemí.“
+„To nejpřísnější síto nastavujeme již v počátku, nikoliv v průběhu studia,“ říká Bohuslav Křena, fakultní proděkan pro efektivitu a akademické záležitosti. „Není naší strategií ani zájmem přijmout maximum studentů a až v průběhu studia zjišťovat, kteří z nich na něj skutečně mají. Navíc to k nám je blízko ze Slovenska, můžeme si tak vybírat mezi těmi nejlepšími z obou zemí.“
 
-„Dalším, v IT oborech bohužel častým, důvodem pro zanechání studia je částečný nebo úplný přechod do zaměstnání,“ dodává. „Studentům jsme vyšli vstříc tím, že mají dostatek studijních materiálů a také mohou některé přednášky sledovat online nebo ze záznamu.“
+Dalším důvodem pro zanechání studia je – v IT oborech běžný – částečný nebo úplný přechod do zaměstnání. „Studentům jsme vyšli vstříc tím, že mají dostatek studijních materiálů a také mohou některé přednášky sledovat online nebo ze záznamu,“ jmenuje vstřícné kroky.
 
 ## Porovnání se světem potvrzuje problémy českých bakalářů
 
 Vysokou neúspěšností v Česku trpí hlavně bakalářské obory. Na pětiletých nebo obdobných magisterských studiích je nižší. Za rozdíl může zejména jiná oborová struktura „dlouhých“ magistrů – jde obvykle o výběrovější studia medicíny, práva nebo psychologie. Bakalářů je zároveň přibližně desetkrát víc než studentů v dlouhých magisterských studiích, proto je právě jejich neúspěšnost závažnější.
 
-Navazující „krátké“ magisterské studium následuje po úspěšném absolvování bakaláře a má tak úspěšnost poměrně vysokou. Naopak nejnižší úspěšnost mají doktorské programy. U nich jsou ale příčiny jiné – spíš než motivace a schopnosti studentů hrají roli nízké příjmy a tlak na učení, kvůli kterým mají doktorandi méně prostoru na vědeckou práci.
+Navazující „krátké“ magisterské studium následuje po úspěšném absolvování bakaláře, a má tak úspěšnost poměrně vysokou. Naopak nejnižší úspěšnost mají doktorské programy. U nich jsou ale příčiny jiné – spíš než motivace a schopnosti studentů hrají roli nízké příjmy a tlak na učení, kvůli kterým mají doktorandi méně prostoru na vědeckou práci.
 
-_Na rozdíl od ostatních grafů, které ukazují_ neúspěšnost _, ten následující zobrazuje studijní_ úspěšnost.
+_Na rozdíl od ostatních grafů, které ukazují_ neúspěšnost, _ten následující zobrazuje studijní_ úspěšnost.
 
 <div id="programy" style="max-width: 100%; height: 400px"></div>
 
@@ -87,9 +89,9 @@ Neúspěšnost přes 60 procent u liberecké univerzity je mezi netechnickými o
 
 „Nejsme tradiční kamenná univerzita,“ obhajuje vysoká čísla tisková mluvčí školy Barbora Jónová. „O to víc musíme a také chceme svou prestiž stále dokazovat, a to i náročností studia. Přísné nároky a standardní kritéria jsou pak možné příčiny, proč někteří školu nezvládnou dokončit. Pokud bychom z kvality absolventů měli slevit ve prospěch vyšší úspěšnosti, v budoucnu by se to mohlo obrátit proti nám.“
 
-„Univerzita i jednotlivé fakulty přijímají nebo přijaly některá opatření,“ dodává. „Například menší volnost v prvním ročníku, jako je povinná účast na přednáškách, ve vyšších ročnících pak přidání druhého opravného termín státních závěrečných zkoušek nebo úprava poplatků za překročení délky studia. Nabízíme také studijní pomoc odborně méně zdatným, ale dostatečně motivovaným studentům.“
+Jónová nastiňuje, jak se jednotlivé fakulty snaží zvyšovat úspěšnost studentů přes přísnější režim: například menší volnost v prvním ročníku, součástí je i povinná účast na přednáškách. „Ve vyšších ročnících pak přidání druhého opravného termínu státních závěrečných zkoušek nebo úprava poplatků za překročení délky studia. Nabízíme také studijní pomoc odborně méně zdatným, ale dostatečně motivovaným studentům,“ vysvětluje Jónová.
 
-„Řada akademiků v Česku, ale i v okolních zemích, vnímá studijní neúspěšnost jako důkaz kvality – čím víc studentů vyhodíme, tím lepší musí být ti, kdo úspěšně dostudují,“ nesouhlasí analytik Šimon Stiburek. „Jako by si mysleli, že když vyhodí úplně všechny, stanou se nejlepší univerzitou světa. Nejlepší světové univerzity se ale vysokou neúspěšností nechlubí, naopak – Oxford, Cambridge i Harvard vnímají neúspěch nejméně z poloviny jako selhání školy a svou kvalitu vidí v tom, že udělají všechno proto, aby každého studenta naučily všechno, co k úspěšnému dostudování potřebuje.“
+„Řada akademiků v Česku, ale i v okolních zemích, vnímá studijní neúspěšnost jako důkaz kvality – čím víc studentů vyhodíme, tím lepší musí být ti, kdo úspěšně dostudují,“ zmiňuje analytik Šimon Stiburek. „Jako by si mysleli, že když vyhodí úplně všechny, stanou se nejlepší univerzitou světa. Nejlepší světové univerzity se ale vysokou neúspěšností nechlubí, naopak – Oxford, Cambridge i Harvard vnímají neúspěch nejméně z poloviny jako selhání školy a svou kvalitu vidí v tom, že udělají všechno proto, aby každého studenta naučily všechno, co k úspěšnému dostudování potřebuje,“ vzpomíná Stiburek prestižní světové univerzitní adresy.
 
 ## Elitní absolventi? Spíš je důležité, aby odcházející uměli víc, než když přišli.
 
@@ -103,4 +105,6 @@ Vedle samotného vzdělávání to znamená věnovat se také sociálnímu prost
 
 „Je čím dál větší propast mezi tím, co studenti chtějí, a co jim školy nabízejí,“ dodává za autory publikace Šimon Stiburek. „Školy už se naučily občas se zeptat studentů na jejich očekávání, ale neumí s ním zatím moc pracovat. Dřív školy odchody studentů tolik netrápily, teď je ohrožují: na školy nastupují slabší ročníky a ty tak nechtějí studenty vyhazovat i kvůli penězům.“
 
-„Školy teď řeší střet mezi dvěma přístupy,“ pokračuje Stibůrek. „V klasickém elitním pojetí je pro školu klíčová kvalita absolventů, nikoliv jejich množství. Moderní pojetí říká, že je důležité, aby absolventi uměli víc, než když přišli. Ptá se, jestli jsou peníze vložené do vzdělávání efektivně využité. A to v Česku, kde je trh hladový po absolventech napříč obory, rozhodně jsou.“
+Školy tak teď řeší střet mezi dvěma přístupy.
+
+„V klasickém elitním pojetí je pro školu klíčová kvalita absolventů, nikoliv jejich množství. Moderní pojetí říká, že je důležité, aby absolventi uměli víc, než když přišli. Ptá se, jestli jsou peníze vložené do vzdělávání efektivně využité. A to v Česku, kde je trh hladový po absolventech napříč obory, zatím spíš nejsou,“ uzavírá Stiburek.
