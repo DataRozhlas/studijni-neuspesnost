@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Highcharts Example</title>
+
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+
+<div id="mezinarodni" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+
+var colors = ['#EA614A', '#20649B', '#008836', '#6B96CA', '#A38456', '#A87A93', '#D19C95']
+
+var neuspesnostZeme = [
+  ["Estonsko",43.4],
+  ["Švédsko",33.6],
+  ["Česko", 30.6],
+  ["Izrael",25.9],
+  ["Rakousko",23.6],
+  ["Belgie (Vlámsko)",22.1],
+  ["Nizozemsko",22],
+  ["Francie",21.2],
+  ["Norsko",21.2],
+  ["Finsko",20.8],
+  ["Austrálie",19.6],
+  ["USA",16.6],
+  ["Nový Zéland",16.1],
+  ["Velká Británie",15.9],
+  ["Dánsko",13.1]
+]
+
+var zeme = neuspesnostZeme.map(function(d) {
+        return d[0];
+    });
+
+Highcharts.chart('mezinarodni', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Studijní neúspěšnost bakalářů, Česko × OECD'
+    },
+    subtitle: {
+        text: 'srovnání studentů, kteří nastoupili 2013, letos by standardní dobu studia překročili o 2 roky'
+    },
+    xAxis: {
+        categories: zeme
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'studijní neúspěšnost Bc. studia'
+        },
+        labels: {
+            format: '{value} %'
+        }
+    },
+    tooltip: {
+        pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y} %</b><br/>',
+        crosshairs: true
+    },
+    exporting: {
+        enabled: false
+    },
+    credits: {
+        href: '',
+        text: 'Zdroj: MŠMT'
+    },
+    legend: {
+        enabled: false
+    },
+    series: [{
+        name: 'bakaláře nedokončilo',
+        data: [
+            neuspesnostZeme[0],
+            neuspesnostZeme[1],
+            {y: neuspesnostZeme[2][1], color: colors[1]},
+            neuspesnostZeme[3],
+            neuspesnostZeme[4],
+            neuspesnostZeme[5],
+            neuspesnostZeme[6],
+            neuspesnostZeme[7],
+            neuspesnostZeme[8],
+            neuspesnostZeme[9],
+            neuspesnostZeme[10],
+            neuspesnostZeme[11],
+            neuspesnostZeme[12],
+            neuspesnostZeme[13],
+            neuspesnostZeme[14]
+        ],
+        color: colors[0]
+    }]
+});
+
+		</script>
+	</body>
+</html>
+
